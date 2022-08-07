@@ -1,0 +1,73 @@
+body{
+  background-color: rgb(22, 29, 69);
+  color:white;
+  font-size: 40px;
+}
+
+.parent{
+  display: flex;
+  flex-flow: column;
+  padding: 20px;
+  margin-top: 150px;
+  align-items: center;
+}
+
+/* div{
+  border:2px solid white;
+} */
+
+.tripDetails{
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  padding: 20px;
+}
+
+.radioButtons{
+  font-size: 20px;
+}
+
+.form{
+  font-size: 20px;
+  padding: 10px;
+}
+
+.form>div{
+  margin-top: 10px;
+}
+
+.form>div>div>input, select{
+  font-size: 20px;
+  width: 250px;
+}
+
+.tripList{
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  column-rule: 2px solid white;
+  padding: 5px;
+  font-size: 20px;
+  min-height: 250px;
+  border:2px solid white;
+}
+
+button{
+  padding: 10px;
+  font-size: 15px;
+}
+
+.links{
+  font-size: 25px;
+  padding: 10px;
+  text-decoration: none;
+  color: rgb(136, 225, 255);
+  position: absolute;
+  left: 5px;
+  top: 45%;
+}
+
+a{
+  font-size: 25px;
+  padding: 10px;
+  text-decoration: none;
+  color: rgb(136, 225, 255);
+}
